@@ -8,8 +8,10 @@ const App = () => {
   return (
     <div className={styles.app}>
       <TopBar />
-      <SideBar />
-      <DashBoard />
+      <div className={styles.appInnerContainer}>
+        <SideBar />
+        <DashBoard />
+      </div>
     </div>
   );
 }
