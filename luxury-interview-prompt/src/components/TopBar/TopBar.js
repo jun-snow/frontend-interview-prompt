@@ -3,6 +3,8 @@ import styles from './TopBar.module.css';
 import AppBar from '@material-ui/core/AppBar';
 import ToolBar from '@material-ui/core/ToolBar';
 import LeftMenu from './LeftMenu';
+import Search from './Search';
+import Profile from './Profile';
 
 const TopBar = () => {
   return (
@@ -13,6 +15,8 @@ const TopBar = () => {
       >
         <ToolBar className={styles.toolBar} disableGutters>
           <LeftMenu />
+          <Search />
+          <Profile />
         </ToolBar>
       </AppBar>
     </div>

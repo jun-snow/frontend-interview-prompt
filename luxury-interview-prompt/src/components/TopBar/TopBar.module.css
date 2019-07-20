@@ -18,6 +18,12 @@
   padding-bottom: 1em;
 }
 
+.leftMenuContainer {
+  display: flex;
+  align-items: center;
+  width: 15vw;
+}
+
 .mysteryRectangle {
   height: 1.5em;
   width: 8em;
@@ -28,4 +34,36 @@
 
 #topBar svg {
   width: .7em;
+}
+
+
+.searchContainer {
+  position: absolute;
+  left: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  margin-top: .2em;
+  margin-left: 1em;
+}
+
+
+.searchContainer > .searchMenu {
+  padding-left: 1.2em;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.profileContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.profileImage {
+  height: 100%;
+  right: 0;
 }
