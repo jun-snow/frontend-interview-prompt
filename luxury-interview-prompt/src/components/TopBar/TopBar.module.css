@@ -1,3 +1,31 @@
-.topBarContainer {
-  
+/* .topBarContainer {
+  position: fixed;
+  background-color: #2EB5E2;
+  width: 100%;
+  height: 7vh;
+  z-index: 2;
+} */
+
+#topBar > .appBarContainer {
+  background-color: rgb(23, 173, 223);
+  opacity: .9;
+  box-shadow: none;
+  height: 7vh;
+  z-index: 2;
+}
+
+#topBar .toolBar {
+  padding-bottom: 1em;
+}
+
+.mysteryRectangle {
+  height: 1.5em;
+  width: 8em;
+  margin-left: .9em;
+  margin-right: .8em;
+  background-color: #929292;
+}
+
+#topBar svg {
+  width: .7em;
 }
