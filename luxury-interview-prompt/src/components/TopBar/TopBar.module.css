@@ -57,13 +57,19 @@
 }
 
 .profileContainer {
-  position: relative;
   display: flex;
   justify-content: flex-end;
   height: 100%;
+  margin-left: auto;
 }
 
 .profileImage {
   height: 100%;
-  right: 0;
+}
+
+.profileContainer .downArrow {
+  height: .6em;
+  fill: #ffffff;
+  margin-right: -.3em;
+  margin-left: .4em;
 }
