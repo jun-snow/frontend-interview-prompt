@@ -1,3 +1,69 @@
 .sideBarContainer {
-  
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2C333d;
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: .6em;
+}
+
+.sideBarGroup {
+  color: #95a7c3;
+  width: 100%;
+  padding-bottom: 2.5em;
+}
+
+.sideBarGroup:last-child {
+  padding-bottom: 0;
+}
+
+.sideBarGroup:first-child {
+  margin-top: 75px;
+}
+
+.sideBarItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: .8em;
+  padding-bottom: .8em;
+  padding-left: 1.5em;
+  cursor: pointer;
+}
+
+.sideBarItem > svg {
+  height: .8em;
+  width: .8em;
+}
+
+.sideBarItem > svg.active {
+  fill: #5ab3dc;
+}
+
+.sideBarText {
+  padding-left: 1.8em;
+}
+
+.sideBarSelected {
+  position: absolute;
+  right: 0;
+  height: 40%;
+  background-color: #5ab3dc;
+  width: 4px;
+}
+
+.sideBarItem > .rightArrow {
+  position: absolute;
+  height: .6em;
+  width: .6em;
+  right: .5em;
+}
+
+.sideBarItem > .rotate {
+  transform: rotate(90deg);
 }
