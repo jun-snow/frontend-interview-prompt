@@ -1,0 +1,43 @@
+.container {
+  width: 48%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: .5em;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.3em;
+  margin-right: .8em;
+}
+
+.description {
+  font-size: .7em;
+  color: #a7a3ac;
+}
+
+.buttonContainer > .newButton {
+  background-color: #5dca93;
+  color: #ffffff;
+  box-shadow: none;
+  margin-right: 5px;
+  font-weight: 300;
+}
+
+.buttonContainer > .returningButton {
+  color: #bdbdbd;
+  font-weight: 300;
+}
+
+.visitsImg {
+  width: 100%;
+}

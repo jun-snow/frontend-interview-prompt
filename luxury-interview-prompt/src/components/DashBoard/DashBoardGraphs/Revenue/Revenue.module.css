@@ -1,0 +1,44 @@
+.container {
+  width: 48%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: .5em;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.3em;
+  margin-right: .8em;
+}
+
+.description {
+  font-size: .7em;
+  color: #a7a3ac;
+}
+
+.header > .filterButton {
+  color: #ffffff;
+  font-size: .7em;
+  font-weight: 400;
+  background-color: #5ab3dc;
+  box-shadow: none;
+  padding-left: 2em;
+}
+
+.header .downArrow {
+  height: .6em;
+  margin-left: .1em;
+}
+
+.revenueImg {
+  width: 100%;
+}
