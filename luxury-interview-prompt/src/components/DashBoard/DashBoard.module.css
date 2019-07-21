@@ -58,3 +58,34 @@
   border-radius: 5px;
   box-shadow: 0 0 5px 2px rgba(0,0,0,.05);
 }
+
+.totalsContainer {
+  margin: 1em 2em 2em 2em;
+}
+
+.totalsHeader {
+  display: flex;
+  align-items: baseline;
+}
+
+.totalsTitle {
+  font-weight: 400;
+  font-size: 1.3em;
+  margin-right: .8em;
+}
+
+.totalsDescription {
+  font-size: .7em;
+  color: #a7a3ac;
+}
+
+.totalsData {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.totalsDivider {
+  height: 3.6em;
+  border-right: 1px solid #f2f2f2;
+}
