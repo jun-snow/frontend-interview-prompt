@@ -22,6 +22,9 @@ export const parseData = (str) => {
 
   // convert to percentage
   result.BrandPopularity =
-    '+' + parseFloat(result.BrandPopularity) * 100 + '%';
+    result.BrandPopularity > 0 ?  
+      '+' + result.BrandPopularity * 100 + '%'
+      :
+      result.BrandPopularity * 100 + '%';
   return result;
 }
