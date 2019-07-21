@@ -18,7 +18,7 @@ export const parseData = (str) => {
 
   // add dollar sign to profit and shorthand M
   result.totalProfit =
-    '$' + result.totalProfit.slice(0, 2) + 'M';
+    result.totalProfit.slice(0, 2) + 'M$';
 
   // convert to percentage
   result.BrandPopularity =
