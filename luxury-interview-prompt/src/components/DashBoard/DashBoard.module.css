@@ -8,7 +8,6 @@
   top: 7vh;
   padding-left: 1.2em;
   padding-right: 1em;
-  padding-bottom: 1em;
 }
 
 .header {
@@ -60,7 +59,11 @@
 }
 
 .totalsContainer {
-  margin: 1em 2em 2em 2em;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.totalsInnerContainer {
+  margin: 0 1em 1em 1em;
 }
 
 .totalsHeader {
