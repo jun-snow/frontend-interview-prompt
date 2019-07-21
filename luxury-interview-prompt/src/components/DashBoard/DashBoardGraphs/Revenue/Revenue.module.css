@@ -1,5 +1,5 @@
 .container {
-  width: 48%;
+  width: 45%;
 }
 
 .header {
@@ -32,6 +32,8 @@
   background-color: #5ab3dc;
   box-shadow: none;
   padding-left: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
 }
 
 .header .downArrow {

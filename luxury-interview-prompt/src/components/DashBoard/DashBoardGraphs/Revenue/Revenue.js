@@ -18,6 +18,7 @@ const Revenue = () => (
       </div>
       <Button
         variant="contained"
+        size="small"
         className={styles.filterButton}
       >
         Filter Range
