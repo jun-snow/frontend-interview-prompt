@@ -137,6 +137,6 @@
   }
 
   .totalsColumn:last-child > .totalsDivider {
-    margin-left: 32px;
+    margin-left: 3px;
   }
 }
