@@ -21,6 +21,16 @@ const DashBoardHeader = () => (
       17 January 2016 - 15 February 2016
       <ExpandMore className={styles.downArrow}/>
     </Button>
+
+    {/* <Select
+      IconComponent={() => (
+        <ExpandMore className={styles.downArrow}/>
+      )}
+      className={styles.dateDropdown}
+    >
+      17 January 2016 - 15 February 2016
+      
+    </Select> */}
   </div>
 );
 

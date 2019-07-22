@@ -37,21 +37,25 @@ const DashBoardTotals = () => {
           </p>
         </div>
         <div className={styles.totalsData}>
-          <DataColumn numbers={totalData.newFeedbacks}>
-            New Feedbacks
-          </DataColumn>
-          <div className={styles.totalsDivider} />
-          <DataColumn numbers={totalData.totalProfit}>
-            Total Profit
-          </DataColumn>
-          <div className={styles.totalsDivider} />
-          <DataColumn numbers={totalData.newOrders}>
-            New Orders
-          </DataColumn>
-          <div className={styles.totalsDivider} />
-          <DataColumn numbers={totalData.BrandPopularity}>
-            Brand Popularity
-          </DataColumn>
+          <div className={styles.totalsColumn}>
+            <DataColumn numbers={totalData.newFeedbacks}>
+              New Feedbacks
+            </DataColumn>
+            <div className={styles.totalsDivider} />
+            <DataColumn numbers={totalData.totalProfit}>
+              Total Profit
+            </DataColumn>
+            <div className={styles.totalsDivider} />
+          </div>
+          <div className={styles.totalsColumn}>
+            <DataColumn numbers={totalData.newOrders}>
+              New Orders
+            </DataColumn>
+            <div className={styles.totalsDivider} />
+            <DataColumn numbers={totalData.BrandPopularity}>
+              Brand Popularity
+            </DataColumn>
+          </div>
         </div>
       </div>
     </div>
