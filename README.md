@@ -37,36 +37,37 @@ Before moving onto these, please make sure you are happy with the overall look o
 This is your chance to talk about the prompt! Please provide these answers on your README. 
 - Please share your screen resolution, OS, browser version (best if you're using latest) you used to test in so we can look at it in: 
 
-Screen resolution: 13.3-inch (2560 x 1600)
+**Screen resolution: 13.3-inch (2560 x 1600)
 OS: MacOS High Sierra Version 10.13.6 (17G7024)
-Browser: Chrome Version 74.0.3729.169 (Official Build) (64-bit)
+Browser: Chrome Version 74.0.3729.169 (Official Build) (64-bit)**
 
 - What part of the design did you get stuck on? What took the most time? Similarly, what was the easiest part? 
 
-I spent a lot of time on figuring out Material UI, like reading the docs and searching for icons. The top search bar was probably the easiest since it had the least amount of components.
+**I spent a lot of time on figuring out Material UI, like reading the docs and searching for icons. The top search bar was probably the easiest since it had the least amount of components.
 
-I started by adding classes to the Material UI components to style them in the css files, but in retrospect I should have used the native withstyles API.
+I started by adding classes to the Material UI components to style them in the css files, but in retrospect I should have used the native withstyles API.**
 
 - What part of the design didn't make sense? Did you change anything?
 
-I wasn't too sure about that gray box on the very top left part of the page, but I left it in anyways.
+**I wasn't too sure about that gray box on the very top left part of the page, but I left it in anyways.
 
-The settings button that's getting clipped on the right looked wrong so I fixed that.
+The settings button that's getting clipped on the right looked wrong so I fixed that.**
 
 
 - If you had more time, what would you have liked to implement? 
 
-The page looks great on my macbook, but looked wonky on other settings. I definitely would make it display as intended to be seen on other browsers and resolutions if I had more time. I included an image in the main folder to show what it looks like on my setup.
+**The page looks great on my macbook, but looked wonky on other settings. I definitely would make it display as intended to be seen on other browsers and resolutions if I had more time. I included an image in the main folder to show what it looks like on my setup.
 
 I also made the mistake of using buttons instead of dropdowns for some of the elements, which I didn't realize until the end.
 
-I would've like to learn d3 as well.
+I would've like to learn d3 as well.**
 
 - What did you have to research or lookup while working on this? 
 
-Everything related to Material UI, and a few CSS properties here and there.
----
-Overall, I had a lot of fun with the project and wish I could have spent more time!
+**Everything related to Material UI, and a few CSS properties here and there.**
+
+
+Overall, I had a lot of fun with the project! :+1:
 
 
 
