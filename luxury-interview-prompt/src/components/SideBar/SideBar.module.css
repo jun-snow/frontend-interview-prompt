@@ -4,6 +4,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   font-size: .7em;
   z-index: 2;
@@ -64,4 +65,10 @@
 
 .sideBarItem > .rotate {
   transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .sideBarContainer {
+    display: none;
+  }
 }
