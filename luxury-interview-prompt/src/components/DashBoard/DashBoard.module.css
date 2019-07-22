@@ -17,6 +17,20 @@
   padding-right: 1em;
 }
 
+.mainContainer > .settingsIcon {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  fill: #15c0df;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  padding: .3em;
+  height: 1.3em;
+  width: 1.3em;
+  cursor: pointer;
+}
+
 .header {
   position: relative;
   display: flex;
