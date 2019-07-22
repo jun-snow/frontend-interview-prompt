@@ -18,14 +18,12 @@ const SiteVisits = () => (
       <div className={styles.buttonContainer}>
         <Button
           variant="contained"
-          size="small"
           className={styles.newButton}
         >
           new
         </Button>
         <Button
           variant="outlined"
-          size="small"
           className={styles.returningButton}
         >
           returning
