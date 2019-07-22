@@ -37,9 +37,11 @@ Before moving onto these, please make sure you are happy with the overall look o
 This is your chance to talk about the prompt! Please provide these answers on your README. 
 - Please share your screen resolution, OS, browser version (best if you're using latest) you used to test in so we can look at it in: 
 
-**Screen resolution: 13.3-inch (2560 x 1600)
-OS: MacOS High Sierra Version 10.13.6 (17G7024)
-Browser: Chrome Version 74.0.3729.169 (Official Build) (64-bit)**
+**Screen resolution: 13.3-inch (2560 x 1600)**
+
+**OS: MacOS High Sierra Version 10.13.6 (17G7024)**
+
+**Browser: Chrome Version 74.0.3729.169 (Official Build) (64-bit)**
 
 - What part of the design did you get stuck on? What took the most time? Similarly, what was the easiest part? 
 
